@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          #div1{
+               position: fixed;
+               top: 0;
+               /* background-color: red; */
+               width: 100%;
+
+          }
+          .p{
+               height: 5000px;
+          }
+          
+     </style>
+     <script>
+          window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+
+     if(window.scrollY >12)
+     {
+          document.getElementById("div1").style.backgroundColor="red";
+          // console.log(window.scrollX)
+     }
+     else{
+          document.getElementById("div1").style.backgroundColor="transparent";
+
+     }
+}
+     </script>
+</head>
+<body>
+     <div id="div1">
+          <h1>hello</h1>
+     </div>
+     <p class="p">ia cupiditate corrupti inventore, ullam soluta, distinctio fugit labore quia neque recusandae nihil illo. Quaerat molestiae, ullam pariatur dolorum atque eum amet deserunt fugit numquam?
+     Voluptatibus laudantium recusandae blanditiis autem aliquid maiores excepturi deserunt accusamus unde, a quae id repellendus reiciendis laborum sint nemo omnis mollitia quibusdam earum iure. Perferendis nam laborum ad culpa commodi.
+     Amet, autem voluptatem atque error, ducimus numquam ipsum, sunt hic quo molestias provident veritatis alias doloremque assumenda! Doloremque mollitia ea debitis, non molestias provident beatae, deserunt saepe fugiat ab eveniet.
+     Eligendi, aperiam, consectetur iure saepe sed voluptatum voluptate ipsum veritatis repellat placeat nihil voluptatem reprehenderit. Cumque, ab modi eveniet esse consequatur pariatur porro velit, itaque maxime maiores cupiditate enim impedit. ectus possimus doloremque magni molestiae commodi ratione velit voluptate, repellat modi exercitationem quibusdam hic ut placeat error. Rem veniam illum quod ratione sit expedita voluptatibus eos!
+     Dignissimos possimus eum facere non excepturi suscipit? Exercitationem quo ab dolorum ipsum nemo unde ipsam ducimus accusantium labore neque. Rerum soluta, similique ipsum autem recusandae voluptatibus pariatur sequi sunt voluptatem.</p>
+     <!-- <script src="newsccript.js"></script> -->
+     
+     
+</body>
+</html>
