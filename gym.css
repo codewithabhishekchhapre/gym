@@ -1,0 +1,95 @@
+.home1 {
+    background-image: url(image/bg2.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.nav {
+    padding: 0px 200px;
+}
+
+.navbarabhi ul li a {
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+.nav-color {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.nav-color:hover {
+    background-color: rgb(216, 223, 230);
+    color: rgb(0, 0, 0);
+}
+
+.icon-bar {
+    background: rgb(255, 255, 255);
+}
+
+.home2 {
+    width: 100%;
+    height: 100%;
+}
+
+.bg1 {
+    background: rgb(14, 13, 13);
+}
+
+.home2 {
+    background-image: url(image/gymboy.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin: auto;
+    color: rgb(251, 255, 254);
+}
+
+.home3 {
+    background-image: url(image/gymgirl.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.cover-img {
+    background-image: url(image/gymbg.jpg);
+    color: rgb(33, 45, 54);
+    background-size: cover;
+    height: 800px;
+    margin-top: 5px;
+    background-position: top;
+}
+
+.card-styl {
+    background-color: rgb(2, 23, 32);
+    color: rgb(112, 146, 136);
+    box-shadow: 0px 5px 10px;
+}
+
+.card-styl1 {
+    height: 300px;
+    background-color: rgb(2, 23, 32);
+    color: rgb(112, 146, 136);
+    box-shadow: 0px 5px 10px;
+}
+
+.footerbg {
+    background-image: url(image/footer.jpg);
+    background-position: top;
+    background-size: cover;
+    margin-top: 50px;
+    height: 500px;
+    color: rgb(17, 142, 173);
+    width: 1700px;
+}
+
+.fbg {
+    background-color: black;
+    color: wheat;
+}
